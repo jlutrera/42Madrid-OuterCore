@@ -1,0 +1,30 @@
+ {
+	"cameras":
+	[{
+		"position": "0,0,25",
+		"direction": "0,0,-1",
+		"fov": 90
+		}],
+	
+	"spots":[{
+		"position": "-12,3,11",
+		"bright": 0.8,
+		"color": "255,255,255"
+		}],
+	
+	"cylinders":[{
+		"position": "0,0,0",
+		"radius": 2,
+		"direction": "0,1,0",
+		"height": 10.0,
+		"color": "100,200,255"
+		},
+		{
+		"position": "0,0,0",
+		"radius": 2,
+		"direction": "0,1,0",
+		"height": 10.0,
+		"color": "10,120,55",
+		"rotate": "0,0,90"
+		}]
+ }

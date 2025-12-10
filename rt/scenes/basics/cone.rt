@@ -1,0 +1,21 @@
+ {
+	"cameras":[{
+		"position": "0,3,7",
+		"direction": "0,0,-1",
+		"fov": 90
+		}],
+	
+	"spots":[{
+		"position": "-2,10,14",
+		"bright": 0.8,
+		"color": "255,255,255"
+		}],
+
+	"cones":[{
+		"position": "0,0,0",
+		"radius": 1.5,
+		"direction": "0,1,0",
+		"height": 5.0,
+		"color": "100,100,0"
+		}]
+ }

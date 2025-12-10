@@ -1,0 +1,58 @@
+ {
+# Cámaras para ver la escena
+	"cameras":
+	[
+				{
+		"position": "-10,104,4",
+		"direction": "0,-1,0",
+		"fov": 90
+		},
+		{
+		"position": "0,4,13",
+		"direction": "0,0,-1",
+		"fov": 90
+		},
+		{
+		"position": "0,4,-43",
+		"direction": "0,0,1",
+		"fov": 90
+		}
+
+	],
+	
+	"ambient":
+	{
+		"bright": 0.3,
+		"color": "255,255,255"
+	},
+	"spots":
+	[
+		{
+		"position": "10,13,10",
+		"bright": 0.8,
+		"color": "255,255,255"
+		}
+	],
+
+	"paraboloids":
+	[
+		{
+		"center": "5,12,-20",
+		"direction": "-0.6,-0.4,0.5",
+		"height": 13.0,
+		"k"	: 0.6,
+		"color": "164,74,175",
+		"shine": 900
+    	}
+	],
+	"planes":
+	[
+		{
+		"position":"0,-4,0",
+		"normal":"0,1,0",
+		"color":"238,224,174",
+		"shine":600,
+		"reflectivity": 0.3
+		}
+	]
+}

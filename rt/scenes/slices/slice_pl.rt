@@ -1,0 +1,25 @@
+{
+	"cameras":[{
+    	"position": "0,20,0",
+    	"direction": "0,-0.4,1",
+    	"fov": 90
+  	}],
+
+	"spots":[{
+		"position": "-12,20,15",
+		"bright": 0.8,
+		"color": "255,255,255"
+	}],
+	
+	"planes":[{
+        "position": "0,-10,0",
+        "normal": "0,1,0",
+        "color": "100,0,0",
+        "shine": 400,
+        "slice": [{
+        	"position": "200,0,0",
+            "normal": "-1,0,0"
+            
+        	}]
+    }]
+}
