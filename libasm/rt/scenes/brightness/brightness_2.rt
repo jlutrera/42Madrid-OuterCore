@@ -1,0 +1,25 @@
+{
+	"cameras": [{
+		"position": "40,0,40",
+		"direction": "-1,0,-1",
+		"fov": 60
+	}],
+	"spots": [{
+		"position": "0,0,80",
+		"bright": 1.0,
+		"color": "255,255,255"
+	}],
+	"spheres": [{
+		"center": "0,0,10",
+		"radius": 10,
+		"color": "200,50,50",
+		"shine": 400
+	}],
+	"planes": [{
+		"position": "0,0,0",
+		"normal": "0,0,1",
+		"color": "230,230,230",
+		"shine": 100,
+		"reflectivity": 0.2
+	}]
+}

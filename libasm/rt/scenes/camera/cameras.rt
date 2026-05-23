@@ -1,0 +1,56 @@
+{
+	"cameras": [{
+			"position": "100,0,0",
+			"direction": "-1,0,0",
+			"fov": 70
+		},
+		{
+			"position": "0,100,0",
+			"direction": "0,-1,0",
+			"fov": 70
+		},
+		{
+			"position": "0,0,100",
+			"direction": "0,0,-1",
+			"fov": 70
+		},
+		{
+			"position": "60,40,80",
+			"direction": "-0.6,-0.4,-0.8",
+			"fov": 70
+		}],
+	"spots": [{
+			"position": "80,80,80",
+			"bright": 0.9,
+			"color": "255,255,255"
+		}],
+	"spheres": [{
+		"center": "0,0,0",
+		"radius": 15,
+		"color": "255,100,100",
+		"shine": 600
+	}],
+	"cylinders": [{
+		"position": "0,0,-10",
+		"radius": 4,
+		"direction": "0,1,0",
+		"height": 25.0,
+		"color": "50,200,255",
+		"shine": 400
+	}],
+	"cones": [{
+		"position": "0,0,-5",
+		"radius": 5,
+		"direction": "0,0,1",
+		"height": 20.0,
+		"color": "255,200,0",
+		"shine": 500
+	}],
+	"planes": [{
+		"position": "0,0,-20",
+		"normal": "0,0,1",
+		"color": "230,230,230",
+		"shine": 300,
+		"reflectivity": 0.2
+	}]
+}

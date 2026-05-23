@@ -1,0 +1,49 @@
+{
+   fontconfig_leak
+   Memcheck:Leak
+   match-leak-kinds: definite
+   ...
+   obj:/usr/lib/x86_64-linux-gnu/libfontconfig.so.*
+}
+{
+   pango_leak
+   Memcheck:Leak
+   match-leak-kinds: definite
+   ...
+   obj:/usr/lib/x86_64-linux-gnu/libpango*.so.*
+}
+{
+   cairo_leak
+   Memcheck:Leak
+   match-leak-kinds: definite
+   ...
+   obj:/usr/lib/x86_64-linux-gnu/libcairo.so.*
+}
+{
+   gtk_glib_definitely_lost
+   Memcheck:Leak
+   fun:g_malloc
+   fun:g_slice_alloc
+   fun:g_hash_table_new_full
+   fun:g_vfs_get_file_for_uri
+   ...
+}
+{
+   Memcheck:Leak
+   fun:g_malloc
+   obj:/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0*
+}
+{
+   Memcheck:Leak
+   fun:g_hash_table_new_full
+   obj:/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0*
+}
+{
+   glib_gvfs_definitely_lost
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:g_malloc
+   fun:g_hash_table_new_full
+   obj:/usr/lib/x86_64-linux-gnu/libgio-2.0.so.0*
+   obj:/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0*
+}

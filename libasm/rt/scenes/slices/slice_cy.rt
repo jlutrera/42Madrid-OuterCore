@@ -1,0 +1,47 @@
+{
+	"cameras":
+	[
+		{
+    	"position": "4,-2,20",
+    	"direction": "0,0,-1",
+    	"fov": 90
+  		}
+	],
+  	
+	"ambient":
+	{
+		"color": "255,255,255",
+    	"bright": 0.3
+  	},
+	"spots":
+	[
+		{
+		"position": "12,12,7",
+		"bright": 0.8,
+		"color": "255,255,255"
+		}
+	],
+
+	"cylinders":
+	[
+		{
+		"position": "0,-4,0",
+		"radius": 4,
+		"direction": "1,0,1",
+		"height": 8.0,
+		"color": "100,100,0",
+		"shine": 800,
+		"slice":
+		[
+			{
+			"position": "0,-4,0",
+			"normal": "0,1,0"
+			},
+			{
+			"position": "0,-4,0",
+			"normal": "-1,0,1"
+			}
+		]
+		}
+	]
+}

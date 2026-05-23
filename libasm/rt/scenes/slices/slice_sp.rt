@@ -1,0 +1,24 @@
+{
+	"cameras":[{
+    	"position": "5,5,15",
+    	"direction": "-0.2,-0.5,-1",
+    	"fov": 90
+  		}],
+	
+	"spots":[{
+		"position": "-25,15,15",
+		"bright": 0.8,
+		"color": "255,255,255"
+		}],
+
+  	"spheres":[{
+      	"center": "0,0,-4",
+      	"radius": 6,
+      	"color": "255,0,0",
+      	"shine": 900,
+		"slice":[{
+			"position":"0,14,0",
+			"normal":"0,1,0"
+			}]
+		}]
+}

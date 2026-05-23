@@ -1,0 +1,52 @@
+ {
+	"cameras":
+	[
+		{
+		"position": "0,0,20",
+		"direction": "0,0,-1",
+		"fov": 100
+		},
+		{
+		"position": "0,20,15",
+  		"direction": "0,-1,-0.6",
+		"fov": 90
+		},
+			{
+		"position": "-20,20,0",
+		"direction": "1,-1,0",
+		"fov": 90
+		},
+		{
+		"position": "20,20,20",
+		"direction": "-1,-1,-1",
+		"fov": 90
+		}
+	],
+	
+	"ambient":
+	{
+		"bright": 0.25,
+		"color": "255,255,255"
+	},
+	
+	"spots":
+	[
+		{
+		"position": "-10,13,10",
+		"bright": 0.8,
+		"color": "255,255,255"
+		}
+	],
+
+	"tori":
+	[
+		{
+		"center": "0,0,-10",
+		"direction": "0,1,1",
+		"minor": 3,
+		"major"	: 8,
+		"color": "64,74,175",
+		"shine": 900
+    	}
+	]
+}

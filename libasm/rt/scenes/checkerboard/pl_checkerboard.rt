@@ -1,0 +1,42 @@
+ {
+# Cámaras para ver la escena
+	"cameras":
+	[
+		{
+		"position": "0,4,0",
+		"direction": "0,-1,0",
+		"fov": 80
+		},
+		{
+		"position": "0,5,5",
+		"direction": "0,-1,-0.2",
+		"fov": 90		
+		}
+	],
+	
+	"ambient":
+	{
+		"bright": 0.25,
+		"color": "255,255,255"
+	},
+	"spots":
+	[
+		{
+		"position": "-2,10,10",
+		"bright": 0.5,
+		"color": "255,255,255"
+		}
+	],
+	
+	"planes":
+	[
+		{
+		"position":"0,0,-2",
+		"normal":"0,1,0",
+		"color":"238,224,200",
+		"shine":500,
+		"reflectivity":0.7,
+		"texture":"Checkerboard"
+		}
+	]
+ }
